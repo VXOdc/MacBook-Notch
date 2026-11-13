@@ -23,7 +23,7 @@ is not affiliated with, any commercial notch app.
 
 ## Requirements
 
-- A Mac running macOS 13 Ventura or later
+- A Mac running macOS 27  or later
 - Xcode (free from the Mac App Store) — needed once, to build the app
 
 ## Build it (2 minutes)

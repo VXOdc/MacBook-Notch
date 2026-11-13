@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	objectVersion = 56;
+	classes = {
+	};
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C000000000000000000000001 /* MacBookNotchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000000000000000000001 /* MacBookNotchApp.swift */; };
+		C000000000000000000000002 /* NotchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000000000000000000002 /* NotchController.swift */; };
+		C000000000000000000000003 /* NotchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000000000000000000003 /* NotchView.swift */; };
+		C000000000000000000000004 /* NowPlaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000000000000000000004 /* NowPlaying.swift */; };
+		C000000000000000000000005 /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000000000000000000005 /* Battery.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B000000000000000000000001 /* MacBookNotchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBookNotchApp.swift; sourceTree = "<group>"; };
+		B000000000000000000000002 /* NotchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchController.swift; sourceTree = "<group>"; };
+		B000000000000000000000003 /* NotchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotchView.swift; sourceTree = "<group>"; };
+		B000000000000000000000004 /* NowPlaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlaying.swift; sourceTree = "<group>"; };
+		B000000000000000000000005 /* Battery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
+		B000000000000000000000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B000000000000000000000020 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B000000000000000000000021 /* build-and-make-dmg.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "build-and-make-dmg.sh"; sourceTree = "<group>"; };
+		A000000000000000000000004 /* MacBookNotchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacBookNotchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A000000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A000000000000000000000005 = {
+			isa = PBXGroup;
+			children = (
+				A000000000000000000000006 /* MacBookNotchApp */,
+				B000000000000000000000020 /* README.md */,
+				B000000000000000000000021 /* build-and-make-dmg.sh */,
+				A000000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A000000000000000000000006 /* MacBookNotchApp */ = {
+			isa = PBXGroup;
+			children = (
+				B000000000000000000000001 /* MacBookNotchApp.swift */,
+				B000000000000000000000002 /* NotchController.swift */,
+				B000000000000000000000003 /* NotchView.swift */,
+				B000000000000000000000004 /* NowPlaying.swift */,
+				B000000000000000000000005 /* Battery.swift */,
+				B000000000000000000000010 /* Info.plist */,
+			);
+			path = MacBookNotchApp;
+			sourceTree = "<group>";
+		};
+		A000000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A000000000000000000000004 /* MacBookNotchApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A000000000000000000000003 /* MacBookNotchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000000A /* Build configuration list for PBXNativeTarget "MacBookNotchApp" */;
+			buildPhases = (
+				A000000000000000000000001 /* Sources */,
+				A000000000000000000000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacBookNotchApp;
+			productName = MacBookNotchApp;
+			productReference = A000000000000000000000004 /* MacBookNotchApp.app */;
+			productType = "com.apple.product-type.app";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A000000000000000000000008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = A000000000000000000000009 /* Build configuration list for PBXProject "MacBookNotchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A000000000000000000000005;
+			productRefGroup = A000000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A000000000000000000000003 /* MacBookNotchApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A000000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C000000000000000000000001 /* MacBookNotchApp.swift in Sources */,
+				C000000000000000000000002 /* NotchController.swift in Sources */,
+				C000000000000000000000003 /* NotchView.swift in Sources */,
+				C000000000000000000000004 /* NowPlaying.swift in Sources */,
+				C000000000000000000000005 /* Battery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000000C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A00000000000000000000000D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacBookNotchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.macbooknotch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacBookNotchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bing.macbooknotch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A000000000000000000000009 /* Build configuration list for PBXProject "MacBookNotchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000000B /* Debug */,
+				A00000000000000000000000C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000000A /* Build configuration list for PBXNativeTarget "MacBookNotchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000000D /* Debug */,
+				A00000000000000000000000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A000000000000000000000008 /* Project object */;
+}
